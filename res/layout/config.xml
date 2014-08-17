@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res/com.widget.period_widget_v2"
+    android:id="@+id/llayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done" />
+
+    </FrameLayout>
+
+	<com.mobeta.android.dslv.DragSortListView
+	    android:id="@+id/periodList"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    dslv:drag_enabled="true"
+	    dslv:drag_handle_id="@id/handle"
+	    dslv:float_alpha=".8"
+	    dslv:remove_enabled="false" />
+
+</LinearLayout>
