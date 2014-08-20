@@ -1,3 +1,5 @@
+<img src="http://www.rhosoft.biz/images/pwidget_banner.png">
+
 Period-Widget
 =============
 Check how much time is left in class with the push of a button. Define your own period times and customize this widget to your liking.
